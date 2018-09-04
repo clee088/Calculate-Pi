@@ -1,6 +1,6 @@
 """
 calculatepi.py
-Author: <your name here>
+Author: Christopher Lee
 Credit: <list sources used, if any>
 Assignment:
 
