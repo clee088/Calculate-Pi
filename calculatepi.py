@@ -22,6 +22,8 @@ Note: remember that the printed value of pi will be an estimate!
 
 """
 import math
+
 terms = int(input("I will estimate pi. How many terms should I use? "))
 places = int(input("How many decimal places should I use in the result? "))
-p = 
+pi = 4 * sum([((-1)**k) / (1 + 2 * k) for k in range(0, terms)])
+print("The approximate value of pi is", round(pi, places))
